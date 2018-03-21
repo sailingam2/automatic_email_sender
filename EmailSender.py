@@ -137,7 +137,7 @@ with open('ListCompany.txt') as CompanyFile:
     CompanyList = CompanyFile.readlines()
 	
 def main():
-	sender = "bharathkurapati44@gmail.com"
+	sender = "mail@gmail.com"
 	for emails, company in zip(emailID, CompanyList):
 		print emails
 		subject = 'Application for full-time opportunities with ' + company[:-1]
